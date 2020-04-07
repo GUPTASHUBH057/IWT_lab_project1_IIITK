@@ -19,7 +19,7 @@ document.getElementById("btn5").onclick = function() {
 };
 
 document.getElementById("btn6").onclick = function() {
-  location.href = "https://www.w3schools.com/";
+  location.href = "https://mhrd.gov.in/";
 };
 
 
