@@ -25,3 +25,15 @@ document.getElementById("btn6").onclick = function() {
 
 var year = new Date().getFullYear();
 document.getElementById("copyright").innerHTML += year;
+
+
+
+ var marquee = document.getElementById ("marquee");
+
+ 
+ marquee.onmouseover = function(){
+    marquee.stop();
+ }
+ marquee.onmouseout = function(){
+    marquee.start();
+ }
